@@ -7,35 +7,51 @@ requirements below mentioned.
 
 > These are necessary for basic usability
 
-- [ ] As a user I want to see the navigation links along with the page logo
+- [ ] As a user I want to see the navigation links along with the page logo.
 
   - Different navigation links will be added on top of the page to allow the
-    user to easily navigate the entire page along with the page logo on the
-    left-hand side of the page
+    user to easily navigate the entire page.
 
-- [ ] As a user I want to see an illustrative website header to idealize what
-      hyf is about
+- [ ] As a user I want to see the page logo.
 
-  - A media file will be added to exemplify what hyf is like
+  - A logo will be added to identify the page.
 
-- [ ] As a user I want to see straight-forward facts to understand who hyf is
+- [ ] As a user I want to see a title with an illustration to better know what
+      hyf is about.
 
-  - Factual statistics about us will be added along with narratives over who we
-    are, what we do and what is our end goal
+  - A media file will be added to showcase what hyf is like.
 
-- [ ] As a user I want to find information over their current partnerships and
-      former alumni testimonies
+- [ ] As a user I want to see a stats section.
 
-  - A detailed logo list of the different partners currently working with us and
-    former students testimonies
+  - Factual statistics about us will be added showing our most updated
+    operational numbers.
 
-- [ ] As a user I want to have a contact method to reach the organization to get
-      information over news, social media and how to be able to collaborate
-  - 1 form will be enabled to allow users to enroll to our newsletter
-  - 1 form will be enabled for users to be able to get a hold of us
-  - A section with three buttons will be displayed giving access to specific
-    information to our users on how to collaborate with us
-  - At the bottom there will be a detailed list of our social media
+- [ ] As a user I want to find a description of the website.
+
+  - Three descriptive narratives will be added to give out details about who we
+    are, what the program is about and what the end goal is.
+
+- [ ] As a user I want to get information about current partnerships.
+
+  - A logo list will be added to detail all of our existing partners.
+
+- [ ] As a user I want to read testimonies from former students.
+
+  - Several alumni testimonies will be made available for users to go through
+    them.
+
+- [ ] As a user I want to be able to subscribe to the newsletter.
+
+  - A form will be enabled for users to be able to enroll into our newsletters.
+
+- [ ] As a user I want to find a method to get in contact.
+
+  - A secondary form will be enabled for users to fill in their request to be
+    reached back.
+
+- [ ] As a user I want to find all the links to the different social media.
+  - All existing social media links will be added at the bottom of the page for
+    users to be able to access them.
 
 ## Should-Haves
 
