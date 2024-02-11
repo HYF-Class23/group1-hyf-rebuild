@@ -2,25 +2,25 @@
 
 ## Group Rules
 
-<!-- any general rules you'd like to set for your group? -->
-
 ---
 
 ## Communication Schedule
 
-| Day | How | The topic of discussion |
-| --- | :-: | ----------------------- |
-|     |     |                         |
+| Day |  How  | The topic of discussion |
+| --- | :---: | ----------------------- |
+| Mon | slack | Finish planing          |
+| Tue | slack | Start working           |
+| Wed | slack | Checkpoint              |
+| Thu | slack | fix problem             |
+| Fri | slack | finish                  |
 
 ## Communication Channels
 
 how often will we get in touch on each channel, and what we will discuss there:
 
-- **Issues**:
-- **Pull Requests**:
-- **GitHub Discussions**
-- **Slack/Discord**:
-- **Video Calls**:
+- **Slack**: We will meet twice a week. On Wednesday we will discuss the
+  progress and define what is left to be finished. On Friday we will meet up
+  just to deliver our already finished project.
 
 ---
 
@@ -28,17 +28,19 @@ how often will we get in touch on each channel, and what we will discuss there:
 
 ### Availability for calling/messaging
 
-| Day    | Monday  | Tuesday | Wednesday | Thursday | Friday  | Saturday | Sunday  |
-| ------ | :-----: | :-----: | :-------: | :------: | :-----: | :------: | :-----: |
-| _name_ | 13 - 20 | 13 - 20 |  13 - 20  | 13 - 20  | 13 - 20 | 13 - 20  | 13 - 20 |
+| Day   | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
+| ----- | :----: | :-----: | :-------: | :------: | :----: | :------: | :----: |
+| Poly  |  9-12  |  9-12   |   9-12    |   9-12   |  9-12  |   9-12   |  9-12  |
+| Kev   | 11-14  |  11-14  |   11-14   |  11-14   |   no   |    no    |   no   |
+| Tarun |  6-8   |   6-8   |    6-8    |   6-8    |  6-8   |    no    |   no   |
+| Yurii | 17-20  |  14-18  |   10-18   |  14-18   | 10-12  |    no    |   no   |
 
 ### How many hours everyone has per day
 
-- name: _5h_; extra comments?
-- name: _6h_;
-- name: _5h_;
-- name: _4h_;
-- name: _3h_;
+- Poly: _4h_;
+- Kev: _3h_;
+- Tarun: _2h_;
+- Yurii: _3h_;
 
 ## Asking for Help
 
