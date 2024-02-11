@@ -13,7 +13,9 @@ benefit from collaboration and interaction.
 
 ### Student
 
-- **Bio**: Alex is 35 and wants to gain new knowledge in programming and change
+![AlexPhoto](./img/student.jpg)
+
+- **Bio**: Alex is 28 and wants to gain new knowledge in programming and change
   his profession.
 - **Needs/Goals**: He must be passionate about his idea and want to develop in
   the field of acquiring new knowledge.
@@ -25,6 +27,8 @@ benefit from collaboration and interaction.
 ---
 
 ### Volunteers-teachers
+
+![PowerTeacher](./img/teacher.jpg)
 
 - **Bio**: Sofia has a pedagogical education and programming knowledge and wants
   to help other people gain new knowledge in programming.
@@ -38,6 +42,8 @@ benefit from collaboration and interaction.
 ---
 
 ### Sponsors and employers
+
+![SponsorOdoo](./img/sponsor.jpg)
 
 - **Bio**: The odoo company needs new programmers and in cooperation with us we
   want to promote the learning process.
