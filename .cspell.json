@@ -14,7 +14,8 @@
     "Christiaan",
     "Verwijs",
     "Todos",
-    "wireframe"
+    "wireframe",
+    "hyfdesign"
   ],
   "ignorePaths": [
     "node_modules/**",
