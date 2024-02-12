@@ -21,7 +21,7 @@ Hack Your Future Rebuild
 
 ### html
 
-- add two `nav`
+- add eight `nav`
 - add a `div` parent
 - add `a`
 
@@ -41,7 +41,7 @@ Hack Your Future Rebuild
 
 ### html
 
-- add two `img`
+- add one `img`
 
 ### css
 
@@ -50,9 +50,9 @@ Hack Your Future Rebuild
 - add `keyframes`
 - add `hover`
 
-## 3. Title
+## 3. Title with some video
 
-### As a user I want to see the title of the page
+### As a user I want to see the title of the page with some video
 
 - This user story is developed on branch `9-title`.
 - This branch is merged to `master` branch after completion.
