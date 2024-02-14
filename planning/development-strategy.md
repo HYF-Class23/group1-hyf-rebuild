@@ -9,10 +9,10 @@ Hack Your Future Rebuild
 - git clone
 - npm install.
 - npm run.
-  
+
 ---
 
-# 1. Navigation links
+## 1. Navigation links
 
 ### As a user I want to see navigation links
 
