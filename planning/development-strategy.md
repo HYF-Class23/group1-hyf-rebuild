@@ -1,55 +1,197 @@
 # Project Name
 
-<!-- describe your project -->
-
----
+Hack Your Future Rebuild
 
 ## Setup
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+## 0.Setup
+
+- git clone
+- npm install.
+- npm run.
 
 ---
 
-<!-- copy this section once for each must-have user story -->
+## 1. Navigation links
 
-## user story
+### As a user I want to see navigation links
 
-<!-- each issue created from this section will have the `for: user story` label -->
+- This user story is developed on branch `11-navLinks`.
+- This branch is merged to `master` branch after completion.
 
-> "as a ... i can ... so that ..."
+### html
 
-<!-- write any extra notes or description -->
+- add eight `nav`
+- add a `div` parent
+- add `a`
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+### css
 
-### Logic: user story
+- add class `bottom-divider` to both `nav`
+- add `border`
+- add class `spaced-items` to the parent `div`
+- make display `flex` and add `padding`
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+## 2. Logos
 
-### Interface: user story
+### As a user I want to see logos of the page
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- This user story is developed on branch `10-logos`.
+- This branch is merged to `master` branch after completion.
 
-### Interaction: user story
+### html
 
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- add one `img`
 
-### Documentation: user story
+### css
 
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- add class `ouncy-img` to both `img`
+- add `width` and `height`
+- add `keyframes`
+- add `hover`
+
+## 3. Title with some video
+
+### As a user I want to see the title of the page with some video
+
+- This user story is developed on branch `9-title`.
+- This branch is merged to `master` branch after completion.
+
+### html
+
+- add `header` tag
+- add `h1` for the page title
+
+### css
+
+- add class`centered-item` to the `header`
+- make the display `flex` and add `padding`
+
+## 4. Statics
+
+### As a user I want to see statics about the school
+
+- This user story is developed on branch `12-description`.
+- This branch is merged to `master` branch after completion.
+
+### html
+
+- add `section`
+- add `p`
+
+### css
+
+- add id `summary-info` to both `section`
+- add class `fascinating-words` to `p`
+- make the font family `fantasy`
+
+## 4. Description
+
+### As a user I want to see description of the page
+
+- This user story is developed on branch `12-description`.
+- This branch is merged to `master` branch after completion.
+
+### html
+
+- add `section`
+- add `p`
+
+### css
+
+- add id `summary-info` to both `section`
+- add class `fascinating-words` to `p`
+- make the font family `fantasy`
+
+## 5-Some Partners
+
+### As a user I want to see some partners
+
+- This user story is developed on branch `12-description`.
+- This branch is merged to `master` branch after completion.
+
+### html
+
+- add `section`
+- add `p`
+
+### css
+
+- add id `summary-info` to both `section`
+- add class `fascinating-words` to `p`
+- make the font family `fantasy`
+
+## 6-Testimony
+
+### As a user I want to see some testimony
+
+- This user story is developed on branch `12-description`.
+- This branch is merged to `master` branch after completion.
+
+### html
+
+- add `section`
+- add `p`
+
+### css
+
+- add id `summary-info` to both `section`
+- add class `fascinating-words` to `p`
+- make the font family `fantasy`
+
+## 7. Subscribe to our news letter
+
+### As a user I want to see Subscribe to our news letter
+
+- This user story is developed on branch `13-extraLink`.
+- This branch is merged to `master` branch after completion.
+
+### html
+
+- add `aside`
+- add `p`
+- add `a`
+
+### css
+
+- add id `extra-info` and class `aside-info` to both `aside`
+- add `width`, `padding`, `margin`, `box-shadow`, `float`
+- add class `aside-text` to `p`
+- change font family to `monospace`
+
+## 8. Contact
+
+### As a user I want to see contact
+
+- This user story is developed on branch `14-moreLinks`.
+- This branch is merged to `master` branch after completion.
+
+### html
+
+- add `article`
+- add `p`
+- add `ul`
+- add `li`
+- add `a`
+
+### css
+
+- add id `main-info"` to `article`
+- add class `interesting-things` to `ul`
+- make list style type `square`
+
+## 9. Social media links
+
+### As a user I want to see social media links to contact the website owner
+
+- This user story is developed on branch `15-socialMedia`.
+- This branch is merged to `master` branch after completion.
+
+### html
+
+- add `footer`
+- add `a`
+
+### css
+
+- add class `top-divider` and `spaced-items` to `footer`

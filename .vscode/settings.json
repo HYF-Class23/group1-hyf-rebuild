@@ -113,5 +113,21 @@
   },
 
   // Enable/disable update table of contents on save
-  "markdown.extension.toc.updateOnSave": false
+  "markdown.extension.toc.updateOnSave": false,
+  "cSpell.words": [
+    "aliquet",
+    "apptweak",
+    "arteveld",
+    "Bilde",
+    "convallis",
+    "datacamp",
+    "Donec",
+    "Edouardo",
+    "Excalidraw",
+    "hogeschool",
+    "sapien",
+    "volutpat",
+    "Zepel",
+    "Zeynep"
+  ]
 }
