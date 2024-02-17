@@ -79,7 +79,13 @@ Project by hackyourfuturebelgium.be
 
 ## Contact
 
-By [Name]
+- [Polyanna](./planning/members/polyanna.md)
+
+- [Yurii](./planning/members/yurii.md)
+
+- [Tarun](./planning/members/tarunpurswani.md)
+
+- [Kevin](./planning/members/kevin.md)
 
 ## Instructions for use
 
