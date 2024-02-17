@@ -6,7 +6,7 @@
 
 ---
 
-![img](./img/YuriiPhoto1.jpg)
+![img](./img/yurii.jpg)
 
 ---
 
