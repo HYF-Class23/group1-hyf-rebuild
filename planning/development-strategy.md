@@ -9,19 +9,19 @@ Hack Your Future Rebuild
 - git clone
 - npm install.
 - npm run.
-  
+
 ---
 
-# 1. Navigation links
+## 1. Navigation links
 
-### As a user I want to see navigation links
+## As a user I want to see navigation links
 
 - This user story is developed on branch "adding-header".
 - This branch is merged to `master` branch after completion.
 
 ### html
 
-- add  `nav`
+- add `nav`
 - add a 'video'
 - add a list of 'links'
 
@@ -122,7 +122,7 @@ Hack Your Future Rebuild
 
 ### As a user I want to see some testimony
 
-- This user story is developed on branch "partners-testemony-html".
+- This user story is developed on branch "partners-testimony-html".
 - This branch is merged to `master` branch after completion.
 
 ### html
