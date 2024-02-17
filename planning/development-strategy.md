@@ -27,7 +27,9 @@ Hack Your Future Rebuild
 
 ### css
 
--
+- add class `bottom-divider` to both `nav`
+- add `border`
+- add class `spaced-items` to the parent `div`
 
 ## 2. Logos
 
@@ -38,7 +40,7 @@ Hack Your Future Rebuild
 
 ### html
 
-- add two `img`
+- add one `img`
 
 ### css
 
@@ -47,9 +49,10 @@ Hack Your Future Rebuild
 - add `keyframes`
 - add `hover`
 
+
 ## 3. Title
 
-### As a user I want to see the title of the page
+### As a user I want to see the title of the page with some video
 
 - This user story is developed on branch "adding-header".
 - This branch is merged to `master` branch after completion.
@@ -68,6 +71,7 @@ Hack Your Future Rebuild
 
 ### As a user I want to see statics about the school
 
+
 - This user story is developed on branch 'whoweare'.
 - This branch is merged to `master` branch after completion.
 
@@ -81,6 +85,7 @@ Hack Your Future Rebuild
 - add id `summary-info` to both `section`
 - add class `fascinating-words` to `p`
 - make the font family `fantasy`
+
 
 ## 5. Description
 
@@ -100,6 +105,7 @@ Hack Your Future Rebuild
 - add class `fascinating-words` to `p`
 - make the font family `fantasy`
 
+
 ## 6-Some Partners
 
 ### As a user I want to see some partners
@@ -118,6 +124,7 @@ Hack Your Future Rebuild
 - add class `fascinating-words` to `p`
 - make the font family `fantasy`
 
+
 ## 7-Testimony
 
 ### As a user I want to see some testimony
@@ -135,6 +142,7 @@ Hack Your Future Rebuild
 - add id `summary-info` to both `section`
 - add class `fascinating-words` to `p`
 - make the font family `fantasy`
+
 
 ## 8. Subscribe to our news letter
 
@@ -155,6 +163,7 @@ Hack Your Future Rebuild
 - add `width`, `padding`, `margin`, `box-shadow`, `float`
 - add class `aside-text` to `p`
 - change font family to `monospace`
+
 
 ## 9. Contact
 

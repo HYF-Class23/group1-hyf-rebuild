@@ -1,1 +1,207 @@
 @import url("./something.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.header {
+  width: 100%;
+  background-color: white;
+}
+
+.video-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px 25px 30px 55px;
+}
+
+.nav .logo {
+  width: 80px;
+}
+
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: mediumblue;
+  font-size: 17px;
+}
+
+.content {
+  position: absolute;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 100px;
+  color: white;
+  font-weight: 600;
+}
+
+.back-video {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+/* partners */
+
+.partners-title {
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  font-size: 50px;
+  color: #1c2294;
+}
+
+.partners {
+  margin-left: 25%;
+}
+
+.partners-logo {
+  margin-left: 0.95%;
+  margin-right: 0.95%;
+}
+
+/* testimony */
+
+.testemony1,
+.testemony2,
+.testemony3,
+.testemony4,
+.testemony5,
+.testemony6 {
+  display: inline-block;
+  width: 15%;
+}
+
+.testemony-container {
+  padding-left: 7%;
+}
+
+.testemony-title {
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: -8%;
+  font-size: 40px;
+  color: #1c2294;
+}
+
+.testemony-stars {
+  width: 50%;
+  height: 30%;
+  display: block;
+  margin: 0 auto;
+}
+
+.testemony-photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.testemony-info {
+  text-align: center;
+}
+
+.testemony-name-profession {
+  text-align: center;
+}
+
+.testemony-logo {
+  width: 20%;
+  height: 20%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20%;
+}
+
+/* Stats */
+
+.stats1,
+.stats2,
+.stats3 {
+  display: inline-block;
+  font-size: 80px;
+  color: #1c2294;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 20%;
+  padding-left: 315px;
+}
+
+.stats-info1,
+.stats-info2,
+.stats-info3 {
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  color: #1c2294;
+  width: 10%;
+  margin-top: -5%;
+  margin-bottom: -5%;
+  padding-left: 330px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.wwa1,
+.wwa2,
+.wwa3 {
+  display: inline-block;
+  width: 15%;
+}
+
+.wwa-1,
+.wwa-2,
+.wwa-3 {
+  width: 90%;
+  height: 30%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20%;
+}
+
+.wwa-container {
+  padding-left: 7%;
+  text-align: center;
+}
+
+.wwa-title {
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: -8%;
+  font-size: 40px;
+  color: #1c2294;
+}
+
+.wwa-info {
+  text-align: center;
+}
