@@ -1,356 +1,425 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hack Your Future</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hack Your Future</title>
+    <link href="./styles/index.css" rel="stylesheet" />
+  </head>
 
-  <link href="./styles/index.css" rel="stylesheet" />
-</head>
-
-<body>
-  <header class="header">
-    <nav class="nav">
-      <img src="./planning/img/hyf logo.png" alt="null" class="logo" />\
-      <ul>
-        <li><a href="#">The Program</a></li>
-        <li><a href="#">Volunteer</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Recruit</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Support US</a></li>
-        <li><a href="#">Why Become Partner</a></li>
-        <li><a href="#">FAQ</a></li>
-      </ul>
-    </nav>
-  </header>
-  <div class="video-container">
-    <video muted loop plays-inline id="myVideo" class="back-video">
-      <source src="https://video.wixstatic.com/video/89f22e_214b1a32d71140fd88bb0d1467e5b8f3/1080p/mp4/file.mp4"
-        type="video/mp4" />
-    </video>
-    <div class="content">
-      <h1>HELPING TALENT INTO TECH</h1>
-    </div>
-  </div>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const video = document.getElementById("myVideo");
-      video.play();
-    });
-  </script>
-
-  <!--Stats-->
-  <div class="stats-container">
-    <h1 class="stats1">+350</h1>
-    <h1 class="stats2">70%</h1>
-    <h1 class="stats3">+40%</h1>
-  </div>
-  <div class="stats-info">
-    <p class="stats-info1">
-      Students graduated since HackYourFuture Belgium was launched in 2018
-    </p>
-    <p class="stats-info2">
-      Of our graduates find an internship, a job or start advanced studies.
-    </p>
-    <p class="stats-info3">Women represent over 40% of our students.</p>
-  </div>
-
-  <!--Who we are-->
-
-  <div class="wwa-container">
-    <h2 class="wwa-title">WHO WE ARE</h2>
-
-    <div class="wwa1">
-      <div class="wwa-item">
-        <img class="wwa-1" src="./img/wwa1.webp" alt="who_we_are1" />
-        <p class="wwa-info">
-          <em> Who we are </em> <br />
-          <br />
-          HackYourFuture is a not-for-profit coding school for people with
-          limited access to education and the labor market. The majority of
-          our students worldwide are refugees.
-        </p>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img src="./planning/img/hyf logo.png" alt="null" class="logo" />\
+        <ul>
+          <li><a href="#">The Program</a></li>
+          <li><a href="#">Volunteer</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Recruit</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Support US</a></li>
+          <li><a href="#">Why Become Partner</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="video-container">
+      <video muted loop plays-inline id="myVideo" class="back-video">
+        <source
+          src="https://video.wixstatic.com/video/89f22e_214b1a32d71140fd88bb0d1467e5b8f3/1080p/mp4/file.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="content">
+        <h1>HELPING TALENT INTO TECH</h1>
       </div>
     </div>
-    <div class="wwa2">
-      <div class="wwa-item">
-        <img class="wwa-2" src="./img/wwa2.webp" alt="who_we_are2" />
-        <p class="wwa-info">
-          <em> The program </em> <br />
-          <br />
-          We believe in a world in which education and quality jobs are
-          accessible for all. This is why we have designed a free 34 week
-          program for refugees and newcomers.
-        </p>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const video = document.getElementById("myVideo");
+        video.play();
+      });
+    </script>
+
+    <!--Stats-->
+    <div class="stats-container">
+      <h1 class="stats1">+350</h1>
+      <h1 class="stats2">70%</h1>
+      <h1 class="stats3">+40%</h1>
+    </div>
+    <div class="stats-info">
+      <p class="stats-info1">
+        Students graduated since HackYourFuture Belgium was launched in 2018
+      </p>
+      <p class="stats-info2">
+        Of our graduates find an internship, a job or start advanced studies.
+      </p>
+      <p class="stats-info3">Women represent over 40% of our students.</p>
+    </div>
+
+    <!--Who we are-->
+
+    <div class="wwa-container">
+      <h2 class="wwa-title">WHO WE ARE</h2>
+
+      <div class="wwa1">
+        <div class="wwa-item">
+          <img class="wwa-1" src="./img/wwa1.webp" alt="who_we_are1" />
+          <p class="wwa-info">
+            <em> Who we are </em> <br />
+            <br />
+            HackYourFuture is a not-for-profit coding school for people with
+            limited access to education and the labor market. The majority of
+            our students worldwide are refugees.
+          </p>
+        </div>
+      </div>
+      <div class="wwa2">
+        <div class="wwa-item">
+          <img class="wwa-2" src="./img/wwa2.webp" alt="who_we_are2" />
+          <p class="wwa-info">
+            <em> The program </em> <br />
+            <br />
+            We believe in a world in which education and quality jobs are
+            accessible for all. This is why we have designed a free 34 week
+            program for refugees and newcomers.
+          </p>
+        </div>
+      </div>
+      <div class="wwa3">
+        <div class="wwa-item">
+          <img class="wwa-3" src="./img/wwa3.webp" alt="who_we_are3" />
+          <p class="wwa-info">
+            <em> The goal </em> <br /><br />
+            After the program we support our students in finding high quality
+            jobs. Our success criteria is not graduation from the course but
+            employment in the tech industry.
+          </p>
+        </div>
       </div>
     </div>
-    <div class="wwa3">
-      <div class="wwa-item">
-        <img class="wwa-3" src="./img/wwa3.webp" alt="who_we_are3" />
-        <p class="wwa-info">
-          <em> The goal </em> <br /><br />
-          After the program we support our students in finding high quality
-          jobs. Our success criteria is not graduation from the course but
-          employment in the tech industry.
-        </p>
+
+    <div class="partners-conteiners">
+      <h1 class="partners-title">SOME OF OUR PARTNERS</h1>
+
+      <div class="partners">
+        <img class="partners-logo" src="./img/vbofeb.png" alt="VBO FEB" />
+        <img class="partners-logo" src="./img/axxes.png" alt="Axxes" />
+        <img class="partners-logo" src="./img/agoria.jpg" alt=".AGORIA" />
+        <img
+          class="partners-logo"
+          src="./img/epitech.png"
+          alt="EPITECH TECHNOLOGY"
+        />
+        <img
+          class="partners-logo"
+          src="./img/delenbank.png"
+          alt="delenprivatebanck"
+        />
+        <br />
+        <img
+          class="partners-logo"
+          src="./img/sweepatic.png"
+          alt="SWEEPATIC Security"
+        />
+        <img
+          class="partners-logo"
+          src="./img/ae adapt and enabl.png"
+          alt="AE Adapt and Enable"
+        />
+        <img
+          class="partners-logo"
+          src="./img/datacamp.png"
+          alt="datacamp DONATES"
+        />
+        <img
+          class="partners-logo"
+          src="./img/arteveld.png"
+          alt="arteveld hogeschool"
+        />
+        <img class="partners-logo" src="./img/capgemini.png" alt="Capgemini" />
+        <br />
+        <img
+          class="partners-logo"
+          src="./img/bruxellesformation.png"
+          alt="BRUXELLES FORMATION"
+        />
+        <img
+          class="partners-logo"
+          src="./img/duoforjob.png"
+          alt="DUO FOR A JOB"
+        />
+        <img class="partners-logo" src="./img/uxantwerp.jpg" alt="UX Antwerp" />
+        <img
+          class="partners-logo"
+          src="https://static.wixstatic.com/media/2524ce_c2de444ffc1641dfa7aca8f046efe7a6~mv2.png/v1/fill/w_115,h_114,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/image.png"
+          alt="A"
+        />
+        <img class="partners-logo" src="./img/microsoft.jpg" alt="MICROSOFT" />
       </div>
     </div>
-  </div>
 
-  <div class="partners-conteiners">
-    <h1 class="partners-title">SOME OF OUR PARTNERS</h1>
+    <div class="testemony-container">
+      <h2 class="testemony-title">WHAT OUR ALUMNI SAY</h2>
 
-    <div class="partners">
-      <img class="partners-logo" src="./img/vbofeb.png" alt="VBO FEB" />
-      <img class="partners-logo" src="./img/axxes.png" alt="Axxes" />
-      <img class="partners-logo" src="./img/agoria.jpg" alt=".AGORIA" />
-      <img class="partners-logo" src="./img/epitech.png" alt="EPITECH TECHNOLOGY" />
-      <img class="partners-logo" src="./img/delenbank.png" alt="delenprivatebanck" />
+      <div class="testemony1">
+        <div class="testemony-item">
+          <img class="testemony-stars" src="./img/stars.png" alt="Stars" />
+          <p class="testemony-info">
+            “As an unemployed and <br />lonely refugee in Belgium, I <br />felt
+            lost and unsure about <br />my future until I found HYF. <br />The
+            program gave me new <br />skills to fill the gap in my
+            <br />education and helped me <br />make new friends who <br />made
+            me feel like I belonged <br />here.
+            <a href="#" id="readMore">Read more</a>
+
+            <script>
+              var content = document.getElementById("content");
+              var readMore = document.getElementById("readMore");
+
+              readMore.addEventListener("click", function (event) {
+                content.innerHTML +=
+                  " Donec aliquet volutpat sapien ut convallis.";
+                event.preventDefault();
+              });
+            </script>
+          </p>
+          <img
+            class="testemony-photo"
+            src="./img/alexander-abraham.jpg"
+            alt="Alexander Abraham"
+          />
+
+          <header class="testemony-name-profession">
+            <h3>Alexander Abraham</h3>
+            <h4>Sap Consult</h4>
+          </header>
+          <a href="https://kps.com/global/en.html">
+            <img class="testemony-logo" src="./img/kps.png" alt="KPS" />
+          </a>
+        </div>
+      </div>
+      <div class="testemony2">
+        <div class="testemony-item">
+          <img class="testemony-stars" src="./img/stars.png" alt="Stars" />
+          <p class="testemony-info">
+            “The amazing organizers and <br />volunteer coaches at HTF
+            <br />gave me the knowledge, <br />experience and confidence
+            <br />to embark on a new career <br />in tech. <br />Both training
+            (web <br />dev and. Net) where <br />fundamental to <br />my
+            success.
+          </p>
+
+          <img
+            class="testemony-photo"
+            src="./img/Aviv Dror.png"
+            alt="Aviv Dror"
+          />
+          <header class="testemony-name-profession">
+            <h3>Aviv Dror</h3>
+            <h4>Developer</h4>
+          </header>
+
+          <a href="https://www.atlascopco.com/">
+            <img
+              class="testemony-logo"
+              src="./img/Atlas Copco.png"
+              alt="atlascopco"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="testemony3">
+        <div class="testemony-item">
+          <img class="testemony-stars" src="./img/stars.png" alt="Stars" />
+          <p class="testemony-info">
+            “HYF is a light that I saw at <br />the bottom as well, a hope
+            <br />that I held onto as I was <br />building a new life in a new
+            <br />country. It gave me a <br />chance not only to improve
+            <br />my knowledge but to boost my <br />confidence. Also, it gave
+            <br />me a chance to meet many <br />wonderful people.”
+          </p>
+          <img
+            class="testemony-photo"
+            src="./img/zeynep-hanim.jpg"
+            alt=" Zeynep Hanim"
+          />
+
+          <header class="testemony-name-profession">
+            <h3>Zeynep Hanim</h3>
+            <h4>Full Stack development</h4>
+          </header>
+
+          <a href="https://www.optis.be/">
+            <img class="testemony-logo" src="./img/Optis.png" alt="Optis" />
+          </a>
+        </div>
+      </div>
+      <div class="testemony4">
+        <div class="testemony-item">
+          <img class="testemony-stars" src="./img/stars.png" alt="Stars" />
+          <p class="testemony-info">
+            “HYF definitely built the <br />bridge between the <br />unknown and
+            the doors of <br />my personal success, <br />writing code is now
+            part of <br />my life and I will never forget <br />the lessons
+            learned and <br />time spent with the fellow <br />students and
+            coaches. A big <br />thank you!”
+          </p>
+          <img
+            class="testemony-photo"
+            src="./img/edouardo.jpg"
+            alt="Edouardo"
+          />
+
+          <header class="testemony-name-profession">
+            <h3>Edouardo</h3>
+            <h4>It Consult</h4>
+          </header>
+
+          <a href="https://www.capgemini.com/be-en/">
+            <img
+              class="testemony-logo"
+              src="./img/capgemini.png"
+              alt="Capgemini"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="testemony5">
+        <div class="testemony-item">
+          <img class="testemony-stars" src="./img/stars.png" alt="Stars" />
+          <p class="testemony-info">
+            “What HYF brought to me is <br />you should never give up <br />and
+            always try to find a <br />way when you’re stuck. I’ve <br />learned
+            that dreaming big <br />without big efforts will <br />bring you
+            nowhere. Hack <br />Your Future was part of <br />my journey to
+            <br />became who I am now.”
+          </p>
+
+          <img class="testemony-photo" src="./img/gita.jpg" alt="Gita" />
+
+          <header class="testemony-name-profession">
+            <h3>Gita</h3>
+            <h4>QA Developer</h4>
+          </header>
+
+          <a href="https://ttl.be/">
+            <img class="testemony-logo" src="./img/ttlbe.jpeg" alt="TTL BE" />
+          </a>
+        </div>
+      </div>
+
+      <div class="testemony6">
+        <div class="testemony-item">
+          <img class="testemony-stars" src="./img/stars.png" alt="Stars" />
+          <p class="testemony-info">
+            “HYF is one of the greatest<br />programs that I joined.<br />
+            It has opened many doors<br />
+            for me to learn a lot about <br />software and web
+            <br />development. Without this <br />program, I wouldn’t be at
+            <br />the current job which requires <br />good knowledge<br />
+            in front-end development.”
+          </p>
+          <img class="testemony-photo" src="./img/ramzi.jpg" alt="Ramzi" />
+
+          <header class="testemony-name-profession">
+            <h3>Ramzi</h3>
+            <h4>UX/UI Designer</h4>
+          </header>
+
+          <a href="https://www.apptweak.com/en">
+            <img
+              class="testemony-logo"
+              src="./img/apptweak.png"
+              alt="apptweak"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="newsletter">
+      <form class="news-form">
+        <div class="form-group">
+          <label>First name</label>
+          <input type="text" name="first name" placeholder="First name" />
+        </div>
+        <div class="form-group">
+          <label>Last name</label>
+          <input type="text" name="last name" placeholder="Last name" />
+        </div>
+        <div class="form-group">
+          <label>Email*</label>
+          <input type="text" placeholder="Email" name="email" />
+        </div>
+        <div class="signup">
+          <button type="submit">Sign Up</button>
+        </div>
+      </form>
+    </div>
+    <div class="contact">
+      <div class="contact-container">
+        <div class="contact-form">
+          <h2>Contact Us</h2>
+          <form id="contact" action="#" method="POST">
+            <label for="name">First Name:</label><br />
+            <input type="text" id="name" name="first-name" /><br />
+            <label for="name">Last Name:</label><br />
+            <input type="text" id="last-name" name="last-name" /><br />
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" /><br />
+            <label for="message">Message:</label><br />
+            <textarea id="message" name="message" rows="4" cols="50"></textarea
+            ><br />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div class="map">
+          <h2>Our Location</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.296054158547!2d4.406087915699197!3d50.83802967953232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c47fd1d960c1%3A0xaf49337d11f9b097!2sHackYourFuture%20Belgium!5e0!3m2!1sen!2sbe!4v1644923598195!5m2!1sen!2sbe"
+            width="600"
+            height="450"
+            title="HackYourFuture Belgium Location"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+          <p>
+            <a
+              class="maps"
+              href="https://www.google.com/maps/place/HackYourFuture+Belgium/@50.8380297,4.4060879,17z/data=!3m1!4b1!4m6!3m5!1s0x47c3c47fd1d960c1:0xaf49337d11f9b097!8m2!3d50.8380263!4d4.4086628!16s%2Fg%2F11hbvt8cyh?entry=ttu"
+              >View on Google Maps</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="adress">
+        <p>Avenue de Tervueren 142<br />1150 Bruxelles<br />info@hyfbe.be</p>
+      </div>
       <br />
-      <img class="partners-logo" src="./img/sweepatic.png" alt="SWEEPATIC Security" />
-      <img class="partners-logo" src="./img/ae adapt and enabl.png" alt="AE Adapt and Enable" />
-      <img class="partners-logo" src="./img/datacamp.png" alt="datacamp DONATES" />
-      <img class="partners-logo" src="./img/arteveld.png" alt="arteveld hogeschool" />
-      <img class="partners-logo" src="./img/capgemini.png" alt="Capgemini" />
-      <br />
-      <img class="partners-logo" src="./img/bruxellesformation.png" alt="BRUXELLES FORMATION" />
-      <img class="partners-logo" src="./img/duoforjob.png" alt="DUO FOR A JOB" />
-      <img class="partners-logo" src="./img/uxantwerp.jpg" alt="UX Antwerp" />
-      <img class="partners-logo"
-        src="https://static.wixstatic.com/media/2524ce_c2de444ffc1641dfa7aca8f046efe7a6~mv2.png/v1/fill/w_115,h_114,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/image.png"
-        alt="A" />
-      <img class="partners-logo" src="./img/microsoft.jpg" alt="MICROSOFT" />
-    </div>
-  </div>
+      <div class="social-media-links">
+        <a class="link" href="https://www.instagram.com/">
+          <img class="img-logo" src="./img/logoinsta.jpg" alt="instagram" />
+        </a>
 
-  <div class="testemony-container">
-    <h2 class="testemony-title">WHAT OUR ALUMNI SAY</h2>
+        <a class="link" href="https://github.com/">
+          <img class="img-logo" src="./img/logodogithub.png" alt="github" />
+        </a>
 
-    <div class="testemony1">
-      <div class="testemony-item">
-        <img class="testemony-stars" src="./img/stars.png" alt="Stars" />
-        <p class="testemony-info">
-          “As an unemployed and <br />lonely refugee in Belgium, I <br />felt
-          lost and unsure about <br />my future until I found HYF. <br />The
-          program gave me new <br />skills to fill the gap in my
-          <br />education and helped me <br />make new friends who <br />made
-          me feel like I belonged <br />here.
-          <a href="#" id="readMore">Read more</a>
+        <a class="link" href="https://www.linkedin.com/">
+          <img class="img-logo" src="./img/logolinkedin.png" alt="linkedin" />
+        </a>
 
-          <script>
-            var content = document.getElementById("content");
-            var readMore = document.getElementById("readMore");
-
-            readMore.addEventListener("click", function (event) {
-              content.innerHTML +=
-                " Donec aliquet volutpat sapien ut convallis.";
-              event.preventDefault();
-            });
-          </script>
-        </p>
-        <img class="testemony-photo" src="./img/alexander-abraham.jpg" alt="Alexander Abraham" />
-
-        <header class="testemony-name-profession">
-          <h3>Alexander Abraham</h3>
-          <h4>Sap Consult</h4>
-        </header>
-        <a href="https://kps.com/global/en.html">
-          <img class="testemony-logo" src="./img/kps.png" alt="KPS" />
+        <a class="link" href="https://www.youtube.com/">
+          <img class="img-logo" src="./img/logodoyoutube.jpg" alt="Youtube" />
         </a>
       </div>
-    </div>
-    <div class="testemony2">
-      <div class="testemony-item">
-        <img class="testemony-stars" src="./img/stars.png" alt="Stars" />
-        <p class="testemony-info">
-          “The amazing organizers and <br />volunteer coaches at HTF
-          <br />gave me the knowledge, <br />experience and confidence
-          <br />to embark on a new career <br />in tech. <br />Both training
-          (web <br />dev and. Net) where <br />fundamental to <br />my
-          success.
-        </p>
-
-        <img class="testemony-photo" src="./img/Aviv Dror.png" alt="Aviv Dror" />
-        <header class="testemony-name-profession">
-          <h3>Aviv Dror</h3>
-          <h4>Developer</h4>
-        </header>
-
-        <a href="https://www.atlascopco.com/">
-          <img class="testemony-logo" src="./img/Atlas Copco.png" alt="atlascopco" />
-        </a>
-      </div>
-    </div>
-
-    <div class="testemony3">
-      <div class="testemony-item">
-        <img class="testemony-stars" src="./img/stars.png" alt="Stars" />
-        <p class="testemony-info">
-          “HYF is a light that I saw at <br />the bottom as well, a hope
-          <br />that I held onto as I was <br />building a new life in a new
-          <br />country. It gave me a <br />chance not only to improve
-          <br />my knowledge but to boost my <br />confidence. Also, it gave
-          <br />me a chance to meet many <br />wonderful people.”
-        </p>
-        <img class="testemony-photo" src="./img/zeynep-hanim.jpg" alt=" Zeynep Hanim" />
-
-        <header class="testemony-name-profession">
-          <h3>Zeynep Hanim</h3>
-          <h4>Full Stack development</h4>
-        </header>
-
-        <a href="https://www.optis.be/">
-          <img class="testemony-logo" src="./img/Optis.png" alt="Optis" />
-        </a>
-      </div>
-    </div>
-    <div class="testemony4">
-      <div class="testemony-item">
-        <img class="testemony-stars" src="./img/stars.png" alt="Stars" />
-        <p class="testemony-info">
-          “HYF definitely built the <br />bridge between the <br />unknown and
-          the doors of <br />my personal success, <br />writing code is now
-          part of <br />my life and I will never forget <br />the lessons
-          learned and <br />time spent with the fellow <br />students and
-          coaches. A big <br />thank you!”
-        </p>
-        <img class="testemony-photo" src="./img/edouardo.jpg" alt="Edouardo" />
-
-        <header class="testemony-name-profession">
-          <h3>Edouardo</h3>
-          <h4>It Consult</h4>
-        </header>
-
-        <a href="https://www.capgemini.com/be-en/">
-          <img class="testemony-logo" src="./img/capgemini.png" alt="Capgemini" />
-        </a>
-      </div>
-    </div>
-
-    <div class="testemony5">
-      <div class="testemony-item">
-        <img class="testemony-stars" src="./img/stars.png" alt="Stars" />
-        <p class="testemony-info">
-          “What HYF brought to me is <br />you should never give up <br />and
-          always try to find a <br />way when you’re stuck. I’ve <br />learned
-          that dreaming big <br />without big efforts will <br />bring you
-          nowhere. Hack <br />Your Future was part of <br />my journey to
-          <br />became who I am now.”
-        </p>
-
-        <img class="testemony-photo" src="./img/gita.jpg" alt="Gita" />
-
-        <header class="testemony-name-profession">
-          <h3>Gita</h3>
-          <h4>QA Developer</h4>
-        </header>
-
-        <a href="https://ttl.be/">
-          <img class="testemony-logo" src="./img/ttlbe.jpeg" alt="TTL BE" />
-        </a>
-      </div>
-    </div>
-
-    <div class="testemony6">
-      <div class="testemony-item">
-        <img class="testemony-stars" src="./img/stars.png" alt="Stars" />
-        <p class="testemony-info">
-          “HYF is one of the greatest<br />programs that I joined.<br />
-          It has opened many doors<br />
-          for me to learn a lot about <br />software and web
-          <br />development. Without this <br />program, I wouldn’t be at
-          <br />the current job which requires <br />good knowledge<br />
-          in front-end development.”
-        </p>
-        <img class="testemony-photo" src="./img/ramzi.jpg" alt="Ramzi" />
-
-        <header class="testemony-name-profession">
-          <h3>Ramzi</h3>
-          <h4>UX/UI Designer</h4>
-        </header>
-
-        <a href="https://www.apptweak.com/en">
-          <img class="testemony-logo" src="./img/apptweak.png" alt="apptweak" />
-        </a>
-      </div>
-    </div>
-  </div>
-  <div class="newsletter">
-    <form class="news-form">
-      <div class="form-group">
-        <label>First name</label>
-        <input type="text" name="first name" placeholder="First name" />
-      </div>
-      <div class="form-group">
-        <label>Last name</label>
-        <input type="text" name="last name" placeholder="Last name" />
-      </div>
-      <div class="form-group">
-        <label>Email*</label>
-        <input type="text" placeholder="Email" name="email" />
-      </div>
-      <div class="signup">
-        <button type="submit">Sign Up</button>
-      </div>
-    </form>
-  </div>
-  <div class="contact">
-    <div class="contact-container">
-      <div class="contact-form">
-        <h2>Contact Us</h2>
-        <form id="contact" action="#" method="POST">
-          <label for="name">First Name:</label><br />
-          <input type="text" id="name" name="first-name" /><br />
-          <label for="name">Last Name:</label><br />
-          <input type="text" id="last-name" name="last-name" /><br />
-          <label for="email">Email:</label><br />
-          <input type="email" id="email" name="email" /><br />
-          <label for="message">Message:</label><br />
-          <textarea id="message" name="message" rows="4" cols="50"></textarea><br />
-          <button type="submit">Submit</button>
-        </form>
-      </div>
-      <div class="map">
-        <h2>Our Location</h2>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.296054158547!2d4.406087915699197!3d50.83802967953232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c47fd1d960c1%3A0xaf49337d11f9b097!2sHackYourFuture%20Belgium!5e0!3m2!1sen!2sbe!4v1644923598195!5m2!1sen!2sbe"
-          width="600" height="450" title="HackYourFuture Belgium Location" allowfullscreen="" loading="lazy"></iframe>
-        <p>
-          <a class="maps"
-            href="https://www.google.com/maps/place/HackYourFuture+Belgium/@50.8380297,4.4060879,17z/data=!3m1!4b1!4m6!3m5!1s0x47c3c47fd1d960c1:0xaf49337d11f9b097!8m2!3d50.8380263!4d4.4086628!16s%2Fg%2F11hbvt8cyh?entry=ttu">View
-            on Google Maps</a>
-        </p>
-      </div>
-    </div>
-  </div>
-
-
-  <footer>
-    <div class="adress">
-      <p>Avenue de Tervueren 142<br />1150 Bruxelles<br />info@hyfbe.be</p>
-    </div>
-    <br />
-    <div class="social-media-links">
-      <a class="link" href="https://www.instagram.com/">
-        <img class="img-logo" src="./img/logoinsta.jpg" alt="instagram" />
-      </a>
-
-      <a class="link" href="https://github.com/">
-        <img class="img-logo" src="./img/logodogithub.png" alt="github" />
-      </a>
-
-      <a class="link" href="https://www.linkedin.com/">
-        <img class="img-logo" src="./img/logolinkedin.png" alt="linkedin" />
-      </a>
-
-      <a class="link" href="https://www.youtube.com/">
-        <img class="img-logo" src="./img/logodoyoutube.jpg" alt="Youtube" />
-      </a>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
