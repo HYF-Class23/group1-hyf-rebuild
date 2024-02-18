@@ -6,37 +6,39 @@ Hack Your Future Rebuild
 
 ## 0.Setup
 
-- git clone
-- npm install.
-- npm run.
+1. `git clone https://github.com/HYF-Class23/group1-hyf-rebuild.git`
+2. `cd group1-hyf-rebuild`
+3. `nvm install 20.10.0`
+4. `npm install`
 
 ---
 
 ## 1. Navigation links
 
-### As a user I want to see navigation links
+## As a user I want to see navigation links
 
-- This user story is developed on branch `11-navLinks`.
+- This user story is developed on PR
+  [adding-header](https://github.com/HYF-Class23/group1-hyf-rebuild/pull/27).
 - This branch is merged to `master` branch after completion.
 
 ### html
 
-- add eight `nav`
-- add a `div` parent
-- add `a`
+- add `nav`
+- add a 'video'
+- add a list of 'links'
 
 ### css
 
 - add class `bottom-divider` to both `nav`
 - add `border`
 - add class `spaced-items` to the parent `div`
-- make display `flex` and add `padding`
 
 ## 2. Logos
 
 ### As a user I want to see logos of the page
 
-- This user story is developed on branch `10-logos`.
+- This user story is developed on PR
+  [adding-header](https://github.com/HYF-Class23/group1-hyf-rebuild/pull/25).
 - This branch is merged to `master` branch after completion.
 
 ### html
@@ -50,11 +52,12 @@ Hack Your Future Rebuild
 - add `keyframes`
 - add `hover`
 
-## 3. Title with some video
+## 3. Title
 
 ### As a user I want to see the title of the page with some video
 
-- This user story is developed on branch `9-title`.
+- This user story is developed on PR
+  [add-header](https://github.com/HYF-Class23/group1-hyf-rebuild/pull/27).
 - This branch is merged to `master` branch after completion.
 
 ### html
@@ -71,7 +74,8 @@ Hack Your Future Rebuild
 
 ### As a user I want to see statics about the school
 
-- This user story is developed on branch `12-description`.
+- This user story is developed on PR
+  [add-stats-desc](https://github.com/HYF-Class23/group1-hyf-rebuild/pull/32).
 - This branch is merged to `master` branch after completion.
 
 ### html
@@ -85,11 +89,12 @@ Hack Your Future Rebuild
 - add class `fascinating-words` to `p`
 - make the font family `fantasy`
 
-## 4. Description
+## 5. Description
 
 ### As a user I want to see description of the page
 
-- This user story is developed on branch `12-description`.
+- This user story is developed on branch
+  [add-stats-desc](https://github.com/HYF-Class23/group1-hyf-rebuild/pull/32).
 - This branch is merged to `master` branch after completion.
 
 ### html
@@ -103,11 +108,12 @@ Hack Your Future Rebuild
 - add class `fascinating-words` to `p`
 - make the font family `fantasy`
 
-## 5-Some Partners
+## 6-Some Partners
 
 ### As a user I want to see some partners
 
-- This user story is developed on branch `12-description`.
+- This user story is developed on PR
+  [partners-and-testemony-css](https://github.com/HYF-Class23/group1-hyf-rebuild/pull/17).
 - This branch is merged to `master` branch after completion.
 
 ### html
@@ -121,11 +127,12 @@ Hack Your Future Rebuild
 - add class `fascinating-words` to `p`
 - make the font family `fantasy`
 
-## 6-Testimony
+## 7-Testimony
 
 ### As a user I want to see some testimony
 
-- This user story is developed on branch `12-description`.
+- This user story is developed on branch
+  [partners-testimony-html](https://github.com/HYF-Class23/group1-hyf-rebuild/pull/17).
 - This branch is merged to `master` branch after completion.
 
 ### html
@@ -139,11 +146,12 @@ Hack Your Future Rebuild
 - add class `fascinating-words` to `p`
 - make the font family `fantasy`
 
-## 7. Subscribe to our news letter
+## 8. Subscribe to our news letter
 
 ### As a user I want to see Subscribe to our news letter
 
-- This user story is developed on branch `13-extraLink`.
+- This user story is developed on branch
+  [html_mod](https://github.com/HYF-Class23/group1-hyf-rebuild/pull/29).
 - This branch is merged to `master` branch after completion.
 
 ### html
@@ -159,11 +167,12 @@ Hack Your Future Rebuild
 - add class `aside-text` to `p`
 - change font family to `monospace`
 
-## 8. Contact
+## 9. Contact
 
 ### As a user I want to see contact
 
-- This user story is developed on branch `14-moreLinks`.
+- This user story is developed on branch
+  [html_mod](https://github.com/HYF-Class23/group1-hyf-rebuild/pull/29).
 - This branch is merged to `master` branch after completion.
 
 ### html
@@ -180,7 +189,7 @@ Hack Your Future Rebuild
 - add class `interesting-things` to `ul`
 - make list style type `square`
 
-## 9. Social media links
+## 10. Social media links
 
 ### As a user I want to see social media links to contact the website owner
 
