@@ -6,9 +6,10 @@ Hack Your Future Rebuild
 
 ## 0.Setup
 
-- git clone
-- npm install.
-- npm run.
+1. `git clone https://github.com/HYF-Class23/group1-hyf-rebuild.git`
+2. `cd group1-hyf-rebuild`
+3. `nvm install 20.10.0`
+4. `npm install`
 
 ---
 
@@ -16,7 +17,8 @@ Hack Your Future Rebuild
 
 ## As a user I want to see navigation links
 
-- This user story is developed on branch "adding-header".
+- This user story is developed on PR
+  [adding-header](https://github.com/HYF-Class23/group1-hyf-rebuild/pull/27).
 - This branch is merged to `master` branch after completion.
 
 ### html
@@ -35,7 +37,8 @@ Hack Your Future Rebuild
 
 ### As a user I want to see logos of the page
 
-- This user story is developed on branch "adding-header".
+- This user story is developed on PR
+  [adding-header](https://github.com/HYF-Class23/group1-hyf-rebuild/pull/25).
 - This branch is merged to `master` branch after completion.
 
 ### html
@@ -53,7 +56,8 @@ Hack Your Future Rebuild
 
 ### As a user I want to see the title of the page with some video
 
-- This user story is developed on branch "adding-header".
+- This user story is developed on PR
+  [add-header](https://github.com/HYF-Class23/group1-hyf-rebuild/pull/27).
 - This branch is merged to `master` branch after completion.
 
 ### html
@@ -70,7 +74,8 @@ Hack Your Future Rebuild
 
 ### As a user I want to see statics about the school
 
-- This user story is developed on branch 'whoweare'.
+- This user story is developed on PR
+  [add-stats-desc](https://github.com/HYF-Class23/group1-hyf-rebuild/pull/32).
 - This branch is merged to `master` branch after completion.
 
 ### html
@@ -88,7 +93,8 @@ Hack Your Future Rebuild
 
 ### As a user I want to see description of the page
 
-- This user story is developed on branch 'whoweare'.
+- This user story is developed on branch
+  [add-stats-desc](https://github.com/HYF-Class23/group1-hyf-rebuild/pull/32).
 - This branch is merged to `master` branch after completion.
 
 ### html
@@ -106,7 +112,8 @@ Hack Your Future Rebuild
 
 ### As a user I want to see some partners
 
-- This user story is developed on branch "partners".
+- This user story is developed on PR
+  [partners-and-testemony-css](https://github.com/HYF-Class23/group1-hyf-rebuild/pull/17).
 - This branch is merged to `master` branch after completion.
 
 ### html
@@ -124,7 +131,8 @@ Hack Your Future Rebuild
 
 ### As a user I want to see some testimony
 
-- This user story is developed on branch "partners-testimony-html".
+- This user story is developed on branch
+  [partners-testimony-html](https://github.com/HYF-Class23/group1-hyf-rebuild/pull/17).
 - This branch is merged to `master` branch after completion.
 
 ### html
@@ -142,7 +150,8 @@ Hack Your Future Rebuild
 
 ### As a user I want to see Subscribe to our news letter
 
-- This user story is developed on branch 'html_mod'.
+- This user story is developed on branch
+  [html_mod](https://github.com/HYF-Class23/group1-hyf-rebuild/pull/29).
 - This branch is merged to `master` branch after completion.
 
 ### html
@@ -162,7 +171,8 @@ Hack Your Future Rebuild
 
 ### As a user I want to see contact
 
-- This user story is developed on branch 'html_mod'.
+- This user story is developed on branch
+  [html_mod](https://github.com/HYF-Class23/group1-hyf-rebuild/pull/29).
 - This branch is merged to `master` branch after completion.
 
 ### html
