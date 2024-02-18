@@ -1,6 +1,6 @@
 # Name of project
 
-> A longer description
+> HackYourFuture Belgium rebuild
 
 ## Table of contents
 
@@ -22,29 +22,38 @@
 
 ## General info
 
-> A short description
+> The goal of the project is to explore an existing website and visually
+> recreate one or more web pages
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](./planning/img/screen1.png)
 
 ## Technologies
 
-- Node 14.16.0
+- Node 20.10.0
 - VSC code
+- HTML
+- CSS
 - JavaScript
-- ...
-- ...
 
 ## Setup
 
-- `npm run start`
+- `git clone https://github.com/HYF-Class23/group1-hyf-rebuild.git`
+- `cd group1-hyf-rebuild`
+- `nvm install 20.10.0`
+- `npm install`
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
+```html
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hack your future | hack your future belgium</title>
+  <link href="./styles/index.css" rel="stylesheet" />
+</head>
 ```
 
 ## Features
@@ -66,11 +75,17 @@ Project is: _in progress_
 
 ## Inspiration
 
-Project by freeCodeCamp.org
+Project by hackyourfuturebelgium.be
 
 ## Contact
 
-By [Name]
+- [Polyanna](./planning/members/polyanna.md)
+
+- [Yurii](./planning/members/yurii.md)
+
+- [Tarun](./planning/members/tarunpurswani.md)
+
+- [Kevin](./planning/members/kevin.md)
 
 ## Instructions for use
 
@@ -79,9 +94,10 @@ By [Name]
 
 <!-- a guide to using this repository -->
 
-1. `git clone git@github.com:HackYourFutureBelgium/template-markdown.git`
-2. `cd template-markdown`
-3. `npm install`
+1. `git clone https://github.com/HYF-Class23/group1-hyf-rebuild.git`
+2. `cd group1-hyf-rebuild`
+3. `nvm install 20.10.0`
+4. `npm install`
 
 ## Code Quality Checks
 
