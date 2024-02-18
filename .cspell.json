@@ -1,23 +1,6 @@
 {
   "language": "en",
   "words": [
-    "Bilde",
-    "Christiaan",
-    "Excalidraw",
-    "HackYourFuture",
-    "HackYourFutureBelgium",
-    "keyframes",
-    "Lant",
-    "Nepo",
-    "ouncy",
-    "Ponomarev",
-    "Todos",
-    "Verwijs",
-    "whoweare",
-    "wireframe",
-    "Wireframes",
-    "Yodiz",
-    "Zepel"
     "AGORIA",
     "aliquet",
     "Almeida",
@@ -69,6 +52,7 @@
     "Todos",
     "Verwijs",
     "volutpat",
+    "whoweare",
     "wireframe",
     "Wireframes",
     "Yodiz",
@@ -76,7 +60,6 @@
     "Zepel",
     "Zeynep"
   ],
-  
   "ignorePaths": [
     "node_modules/**",
     "package.json",
