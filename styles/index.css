@@ -205,3 +205,30 @@ body {
 .wwa-info {
   text-align: center;
 }
+
+/* footer */
+
+footer {
+  margin-top: 5%;
+}
+
+.adress {
+  text-align: center;
+  font-size: 100%;
+  color: #1c2294;
+}
+
+.social-media-links {
+  margin-left: 44.5%;
+}
+
+.link {
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+
+.img-logo {
+  width: 50px;
+  height: 50px;
+}
